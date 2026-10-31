@@ -1,0 +1,18 @@
+{
+  "kind": "arcgis-nova-deployable-app",
+  "version": "0.1",
+  "generatedAt": "2026-10-30T16:38:25.585Z",
+  "title": "Redlands Parcel Explorer",
+  "authMode": "oauth",
+  "entry": "index.html",
+  "sourceAppPath": "outputs/apps/2026-10-30T16-37-51-e9166706-a79d-4e77-8fde-b6eb4da597a2/index.html",
+  "files": {
+    "app": "app.json",
+    "map": "map.json",
+    "runtime": "app.js",
+    "auth": "standalone-auth.js"
+  },
+  "portalUrl": "https://www.arcgis.com",
+  "appId": "V5WQvOk3JxNglC32",
+  "deploymentUrl": "https://ismaelinredlands.github.io/redlands-parcel-explorer-dark/"
+}

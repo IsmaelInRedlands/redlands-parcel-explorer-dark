@@ -1,0 +1,141 @@
+{
+  "operationalLayers": [
+    {
+      "id": "19f38691671-layer-2",
+      "disablePopup": true,
+      "title": "Redlands Parcels",
+      "url": "https://services2.arcgis.com/fJJEXNgxjn0dpNsi/arcgis/rest/services/Redlands_Parcels/FeatureServer/0",
+      "itemId": "c310f9d6dcf845b5939a840675066152",
+      "layerType": "ArcGISFeatureLayer",
+      "blendMode": "normal",
+      "layerDefinition": {
+        "fieldConfigurations": [
+          {
+            "name": "bldg_count",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "bldg_sqft",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "totalval",
+            "fieldFormat": {
+              "type": "number",
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "hrcn_risks",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "rfld_risks",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "name": "wfir_risks",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "alias": "SHAPE__Length",
+            "name": "Shape__Length",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          },
+          {
+            "alias": "SHAPE__Area",
+            "name": "Shape__Area",
+            "fieldFormat": {
+              "type": "number",
+              "maximumFractionDigits": 6,
+              "minimumFractionDigits": 6,
+              "useGrouping": "never"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "19503eb0047-layer-2",
+        "title": "Outdoor",
+        "itemId": "f320a8af9ffa4b4baeaf1d66f03da86f",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/f320a8af9ffa4b4baeaf1d66f03da86f/resources/styles/root.json"
+      }
+    ],
+    "title": "Outdoor"
+  },
+  "authoringApp": "ArcGIS API for JavaScript",
+  "authoringAppVersion": "5.1",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100,
+    "falseM": -100000,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "falseZ": -100000,
+    "mTolerance": 0.001,
+    "mUnits": 10000,
+    "xyTolerance": 0.001,
+    "xyUnits": 10000,
+    "zTolerance": 0.001,
+    "zUnits": 10000
+  },
+  "timeZone": "system",
+  "version": "2.37",
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100,
+          "falseM": -100000,
+          "falseX": -20037700,
+          "falseY": -30241100,
+          "falseZ": -100000,
+          "mTolerance": 0.001,
+          "mUnits": 10000,
+          "xyTolerance": 0.001,
+          "xyUnits": 10000,
+          "zTolerance": 0.001,
+          "zUnits": 10000
+        },
+        "xmin": -13044443.963645224,
+        "ymin": 4033993.876813978,
+        "xmax": -13044145.680085625,
+        "ymax": 4034210.6474488806
+      },
+      "scale": 1128.4971763449764,
+      "rotation": 0
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "version": "0.3",
+  "kind": "app",
+  "generatedAt": "2026-10-30T16:37:51.001Z",
+  "item": {
+    "title": "Redlands Parcel Explorer",
+    "subtitle": "Search and inspect parcel records"
+  },
+  "map": {
+    "type": "webmap",
+    "path": "./map.json"
+  },
+  "app": {
+    "template": "nova-app",
+    "preset": "analysis",
+    "showHeader": false,
+    "theme": {
+      "mode": "dark",
+      "accent": "default"
+    },
+    "layout": {},
+    "widgets": [
+      {
+        "id": "parcel-legend",
+        "type": "legend",
+        "slot": "bottom-left",
+        "config": {}
+      },
+      {
+        "id": "parcel-layers",
+        "type": "layerList",
+        "slot": "top-right",
+        "config": {}
+      },
+      {
+        "id": "default-basemap-gallery",
+        "type": "basemapGallery",
+        "slot": "top-right",
+        "config": {}
+      }
+    ],
+    "interactions": [],
+    "behaviors": [
+      {
+        "id": "redlands-header-title-only",
+        "label": "Show only the blue app title in the header",
+        "bundlePath": "./runtime/behaviors/redlands-header-title-only-cf85b98ab7690702.js",
+        "sourceSha256": "cf85b98ab76907027f0dc081dde25fbc79c491b85f2a40415c552a4c6f1a2169",
+        "modulePaths": [],
+        "config": {},
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-10-30T22:31:46.823Z"
+      },
+      {
+        "id": "redlands-map-floating-controls",
+        "label": "Parcel lookup with animated cards and pulsing selection highlight",
+        "bundlePath": "./runtime/behaviors/redlands-map-floating-controls-ad2a6705f0cacb06.js",
+        "sourceSha256": "ad2a6705f0cacb0604fc873b63e9f7d1717f8988e9e39fba50835d1ffa8b87d6",
+        "modulePaths": [
+          "esri/views/support/HighlightOptions"
+        ],
+        "config": {
+          "layerId": "19f38691671-layer-2"
+        },
+        "mounts": [],
+        "ownedLayerIds": [],
+        "interactions": [],
+        "installedAt": "2026-10-31T01:27:31.372Z"
+      }
+    ]
+  },
+  "nova": {
+    "basename": "e9166706-a79d-4e77-8fde-b6eb4da597a2",
+    "presentationMode": "app",
+    "ownedGraphicsLayerIds": [],
+    "origin": {
+      "portalUrl": "https://www.arcgis.com",
+      "mapId": "output-a362746f-4cc6-42ae-9388-6c9349d89b0e",
+      "mapName": "Redlands Parcels Web Map",
+      "viewMode": "2d",
+      "capturedAt": "2026-10-30T16:38:25.585Z",
+      "sourceItem": {
+        "itemId": "acb84f3596dd4de6aabe63af4f3babb7",
+        "portalUrl": "https://www.arcgis.com"
+      }
+    },
+    "sourceSelection": {
+      "mode": "all"
+    },
+    "unsupportedLayers": [],
+    "degradedFeatures": [],
+    "notes": [
+      "Opened from portal item acb84f3596dd4de6aabe63af4f3babb7 at https://www.arcgis.com/sharing/rest."
+    ]
+  }
+}
